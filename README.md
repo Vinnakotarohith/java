@@ -1,2 +1,2 @@
 # maximum
-greater of two numbers
+learning java

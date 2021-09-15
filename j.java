@@ -20,7 +20,7 @@ else{
 
    }
    public static void main(String [ ] args){
-   
+  
 j ad=new j();
      ad. run();
    }

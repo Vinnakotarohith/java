@@ -2,27 +2,22 @@ import java.util.*;
 import java.io.*;
 import java.lang.*;
 import java.applet.*;
- class j{
+//--->Print natural numbers EX:1,2,3,4.....n<----
+ class naturalnumbers{
 
-   void run(){
-      int a,b;
-      Scanner sc= new Scanner(System.in);
-      System.out.println("Enter the number");
-a=sc.nextInt();
-b=sc.nextInt();
-if (a>b){
-   System.out.println("a is max");
-
-}
-else{
-   System.out.println("b is max");
-}
-
+   void natural(){//--->method
+      
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter the number last natural number to print ");
+      int n=sc.nextInt();
+      for(int i=0;i<=n;i++){
+         System.out.println(i);
+      }
    }
    public static void main(String [ ] args){
-  
-j ad=new j();
-     ad. run();
+   
+naturalnumbers ad=new naturalnumbers();
+     ad. natural();//--->calling a method
    }
  }
 
